@@ -1,0 +1,22 @@
+{
+  "name": "betclic-tribune-exporter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bot Discord d'export CSV des messages du canal La Tribune (serveur Betclic France)",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy:commands": "node scripts/deploy-commands.js",
+    "export:cli": "node scripts/export-cli.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}

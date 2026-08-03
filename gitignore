@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.local
+exports/*.csv
+exports/*.zip
+*.log
+.DS_Store
+.idea/
+.vscode/
